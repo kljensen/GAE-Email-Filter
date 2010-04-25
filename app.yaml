@@ -1,0 +1,13 @@
+application: YOUR-APPID-GOES-HERE
+version: 1
+runtime: python
+api_version: 1
+
+inbound_services:
+- mail
+
+handlers:
+- url: /_ah/mail/.+
+  script: mail_handler.py
+  login: admin
+
