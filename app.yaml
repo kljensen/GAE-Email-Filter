@@ -1,4 +1,4 @@
-application: YOUR-APPID-GOES-HERE
+application: kyle-poster
 version: 1
 runtime: python
 api_version: 1
